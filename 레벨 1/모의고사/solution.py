@@ -10,8 +10,6 @@ def solution(answers):
         if(student3[i % len(student3)] == num): grade[2] += 1
         
     maxNum = max(grade)
-    print(maxNum)
-    print(grade)
     answer = list()
     
     for i in range(3):
